@@ -1,0 +1,24 @@
+{
+  "name": "HTML_CSS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "sass ./src/scss/main.scss ./src/css/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ToJestKrzysio/PortfolioWeb.git"
+  },
+  "keywords": [],
+  "author": "krzysztof.plonka64@gmail.com",
+  "license": "Beerware",
+  "bugs": {
+    "url": "https://github.com/ToJestKrzysio/PortfolioWeb/issues"
+  },
+  "homepage": "https://github.com/ToJestKrzysio/PortfolioWeb#readme",
+  "devDependencies": {
+    "sass": "^1.41.1"
+  }
+}

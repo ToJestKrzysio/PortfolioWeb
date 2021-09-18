@@ -1,0 +1,10 @@
+.box {
+  width: 100%;
+
+  &#{&}--header {
+    max-width: rem($breakpoint-lg);
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+  }
+}

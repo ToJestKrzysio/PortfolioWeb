@@ -1,5 +1,9 @@
 .list {
 
-  #{&}__header{}
-  //#{&}__
+  #{&}__hdl {
+    font-family: "Heebo Regular", sans-serif;
+    font-size: rem(22px);
+    line-height: 2.6;
+    color: $dark;
+  }
 }

@@ -12,15 +12,11 @@
   }
 
   #{&}__hdl {
-    font-family: "Heebo Bold";
-    font-size: rem(26px);
-    line-height: 1.4;
+    @include hdl(26px, 1.4, "Bold");
   }
 
   #{&}__addInfo {
-    font-family: "Heebo Regular";
-    font-size: rem(18px);
-    line-height: 1.4;
+    @include text(18px);
   }
 
   #{&}__date {
@@ -29,14 +25,8 @@
     margin-right: rem(30px);
   }
 
-  #{&}__category {
-
-  }
-
   #{&}__text{
-    font-family: "Heebo Regular";
-    font-size: rem(16px);
-    line-height: 1.4;
+    @include text;
   }
 
 }

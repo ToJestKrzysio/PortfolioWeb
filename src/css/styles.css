@@ -486,7 +486,7 @@ html {
   justify-content: flex-end;
 }
 .box.box--maxW {
-  max-width: 73.875rem;
+  max-width: 55.3125rem;
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
   margin: auto;
@@ -525,17 +525,17 @@ html {
   text-align: right;
 }
 .intro .intro__hdl {
-  font-family: "Heebo Bold";
-  color: #21243D;
   font-size: 2.75rem;
   line-height: 1.4;
+  font-family: "Heebo Bold", sans-serif;
+  color: #21243D;
   margin-bottom: 1.375rem;
 }
 .intro .intro__text {
-  font-family: "Heebo Regular";
-  color: #21243D;
   font-size: 1rem;
   line-height: 1.4;
+  font-family: "Heebo Regular", sans-serif;
+  color: #21243D;
   margin-bottom: 1.6875rem;
 }
 .intro .intro__avatar {
@@ -578,14 +578,16 @@ html {
   margin-right: 0;
 }
 .card .card__hdl {
-  font-family: "Heebo Bold";
   font-size: 1.625rem;
   line-height: 1.4;
+  font-family: "Heebo Bold", sans-serif;
+  color: #21243D;
 }
 .card .card__addInfo {
-  font-family: "Heebo Regular";
   font-size: 1.125rem;
   line-height: 1.4;
+  font-family: "Heebo Regular", sans-serif;
+  color: #21243D;
 }
 .card .card__date {
   border-right: 0.0625rem solid #21243D;
@@ -593,9 +595,10 @@ html {
   margin-right: 1.875rem;
 }
 .card .card__text {
-  font-family: "Heebo Regular";
   font-size: 1rem;
   line-height: 1.4;
+  font-family: "Heebo Regular", sans-serif;
+  color: #21243D;
 }
 
 .posts .posts__header--more {
@@ -621,6 +624,14 @@ html {
   justify-content: space-between;
   align-items: stretch;
 }
+
+.list .list__hdl {
+  font-family: "Heebo Regular", sans-serif;
+  font-size: 1.375rem;
+  line-height: 2.6;
+  color: #21243D;
+}
+
 .case {
   display: flex;
   justify-content: space-between;
@@ -668,6 +679,28 @@ html {
   font-family: "Heebo Regular", sans-serif;
   font-size: 1rem;
   line-height: 1.4;
+  color: #21243D;
+}
+
+.social {
+  width: 100%;
+  max-width: 14.5rem;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.social .social__item {
+  text-decoration: none;
+}
+.social .social__item svg {
+  fill: #21243D;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  font-family: "Heebo Regular", sans-serif;
   color: #21243D;
 }
 

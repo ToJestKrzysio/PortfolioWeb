@@ -1,9 +1,5 @@
 .posts {
 
-  #{&}__header {
-
-  }
-
   #{&}__header--more {
     display: flex;
     justify-content: space-between;
@@ -15,10 +11,7 @@
   }
 
   #{&}__link {
-    font-size: rem(16px);
-    line-height: 1.2;
-    font-family: "Heebo Regular", sans-serif;
-    color: $secondary;
+    @include text($line-height: 1.2, $color: $secondary);
     text-decoration: none;
   }
 
@@ -26,10 +19,6 @@
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-  }
-
-  #{&}__item {
-
   }
 
 }

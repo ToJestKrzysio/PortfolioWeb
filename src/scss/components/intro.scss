@@ -17,18 +17,12 @@
   }
 
   #{&}__hdl{
-    font-family: "Heebo Bold";
-    color: $dark;
-    font-size: rem(44px);
-    line-height: 1.4;
+    @include hdl(44px, $line-height: 1.4, $weight: "Bold");
     margin-bottom: rem(22px);
   }
 
   #{&}__text{
-    font-family: "Heebo Regular";
-    color: $dark;
-    font-size: rem(16px);
-    line-height: 1.4;
+    @include text;
     margin-bottom: rem(27px);
   }
 

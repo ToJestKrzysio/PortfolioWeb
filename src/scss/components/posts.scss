@@ -11,10 +11,7 @@
   }
 
   #{&}__hdl {
-    font-size: rem(22px);
-    line-height: 1.2;
-    font-family: "Heebo Regular", sans-serif;
-    color: $dark;
+    @include hdl;
   }
 
   #{&}__link {

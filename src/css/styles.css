@@ -543,8 +543,6 @@ html {
   height: auto;
   max-width: 15.1875rem;
   max-height: 15.1875rem;
-  border: 0.0625rem solid #000000;
-  border-radius: 50%;
 }
 
 .btn {
@@ -622,6 +620,55 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: stretch;
+}
+.case {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 0.0625rem solid #E0E0E0;
+  padding-bottom: 0.9375rem;
+  margin-bottom: 1.875rem;
+}
+.case .case__img {
+  width: 100%;
+  max-width: 246px;
+  border-radius: 6px;
+  margin-right: 0.9375rem;
+}
+.case .case__hdl {
+  font-size: 1.875rem;
+  line-height: 1.4;
+  font-family: "Heebo Bold", sans-serif;
+  color: #21243D;
+  margin-top: -7px;
+  margin-bottom: 0.6875rem;
+}
+.case .case__badge {
+  font-family: "Heebo Black", sans-serif;
+  font-size: 1.125rem;
+  background-color: #142850;
+  color: #FFFFFF;
+  border-radius: 1rem;
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+  margin-right: 1.25rem;
+}
+.case .case__subtext {
+  font-family: "Heebo Regular", sans-serif;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #21243D;
+}
+.case .case__category {
+  font-family: "Heebo Regular", sans-serif;
+  font-size: 1.25rem;
+  color: #8695A4;
+}
+.case .case__text {
+  font-family: "Heebo Regular", sans-serif;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #21243D;
 }
 
 /*# sourceMappingURL=styles.css.map */

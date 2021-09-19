@@ -1,0 +1,57 @@
+.case {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: rem(1px) solid $gray-2;
+  padding-bottom: rem(15px);
+  margin-bottom: rem(30px);
+
+  #{&}__img{
+    width: 100%;
+    max-width: 246px;
+    border-radius: 6px;
+    margin-right: rem(15px);
+  }
+
+  #{&}__box{
+  }
+
+  #{&}__hdl{
+    @include hdl(30px, 1.4, "Bold");
+    margin-top: -7px;
+    margin-bottom: rem(11px);
+  }
+
+  #{&}__badge{
+    font-family: "Heebo Black", sans-serif;
+    font-size: rem(18px);
+    background-color: $dark-1;
+    color: $white;
+    border-radius: rem(16px);
+    padding-left: rem(10px);
+    padding-right: rem(10px);
+    margin-right: rem(20px);
+    //margin-bottom:
+  }
+
+  #{&}__subtext{
+    font-family: "Heebo Regular", sans-serif;
+    font-size: rem(16px);
+    line-height: 1.4;
+    color: $dark
+  }
+
+  #{&}__category{
+    font-family: "Heebo Regular", sans-serif;
+    font-size: rem(20px);
+    color: $gray
+  }
+
+  #{&}__text{
+    font-family: "Heebo Regular", sans-serif;
+    font-size: rem(16px);
+    line-height: 1.4;
+    color: $dark
+  }
+
+}

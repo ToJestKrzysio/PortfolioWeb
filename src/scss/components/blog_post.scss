@@ -1,0 +1,33 @@
+.blog_post{
+  padding: rem(15px);
+
+  #{&}__hdl{
+    @include hdl(30px, 1.4, "Medium");
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: rem(10px);
+  };
+
+  #{&}__addInfo{};
+
+  #{&}__date{
+    @include text(20px, 1.4, "Regular");
+    padding-right: rem(27px);
+    margin-right: rem(20px);
+    border-right: 1px $black solid;
+  };
+  #{&}__category{
+    @include text(20px, 1.4, "Regular", $gray);
+  };
+
+  #{&}__text{
+    @include text;
+    border-bottom: 1px $gray-2 solid;
+    padding-bottom: rem(28px);
+    margin-bottom: rem(3px);
+  };
+
+  &:last-child{
+    margin-bottom: rem(84px);
+  }
+}
